@@ -2,7 +2,8 @@
 A homebrew tap to install the [meeshkan](https://github.com/meeshkan/meeshkan) schema builder and mocking tool using [Homebrew](https://brew.sh/):
 
 ```sh
-brew install meeshkan/tap/meeshkan
+brew tap meeshkan/tap
+brew install meeshkan
 ```
 
 # For developers
