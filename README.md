@@ -1,5 +1,5 @@
 # Homebrew tap for meeshkan
-A custom homebrew tap for the [meeshkan](https://github.com/meeshkan/meeshkan) schema builder and mocking tool.
+A homebrew tap for the [meeshkan](https://github.com/meeshkan/meeshkan) schema builder and mocking tool:
 
 ```sh
 brew install meeshkan/tap/meeshkan
