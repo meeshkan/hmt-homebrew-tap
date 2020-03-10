@@ -3,12 +3,11 @@ class Meeshkan < Formula
 
   desc "Mock HTTP APIs"
   homepage "https://github.com/meeshkan/meeshkan"
-  url "https://fornwall.net/meeshkan-0.2.16.tar.gz"
+  url "https://github.com/meeshkan/meeshkan/archive/v0.2.16.tar.gz"
   sha256 "48db04a893ebb9df8f586921cd8e24f633a7a5a5c630d244ea74dd23511e59b3"
   head "https://github.com/meeshkan/meeshkan.git"
 
   depends_on "python@3.8"
-
   resource "aiohttp" do
     url "https://files.pythonhosted.org/packages/00/94/f9fa18e8d7124d7850a5715a0b9c0584f7b9375d331d35e157cee50f27cc/aiohttp-3.6.2.tar.gz"
     sha256 "259ab809ff0727d0e834ac5e8a283dc5e3e0ecc30c4d80b3cd17a4139ce1f326"
@@ -203,7 +202,6 @@ class Meeshkan < Formula
     url "https://files.pythonhosted.org/packages/d6/67/6e2507586eb1cfa6d55540845b0cd05b4b77c414f6bca8b00b45483b976e/yarl-1.4.2.tar.gz"
     sha256 "58cd9c469eced558cd81aa3f484b2924e8897049e06889e8ff2510435b7ef74b"
   end
-
   def install
     virtualenv_install_with_resources
   end
