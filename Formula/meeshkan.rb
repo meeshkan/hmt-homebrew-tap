@@ -3,8 +3,8 @@ class Meeshkan < Formula
 
   desc "Mock HTTP APIs"
   homepage "https://github.com/meeshkan/meeshkan"
-  url "https://github.com/meeshkan/meeshkan/archive/v0.2.16.tar.gz"
-  sha256 "48db04a893ebb9df8f586921cd8e24f633a7a5a5c630d244ea74dd23511e59b3"
+  url "https://github.com/meeshkan/meeshkan/archive/v0.2.17.tar.gz"
+  sha256 "7167e0468c421d2e43bb13d02964b7c1d1973492fa3173066651e4e83cf99803"
   head "https://github.com/meeshkan/meeshkan.git"
 
   depends_on "python@3.8"
@@ -58,6 +58,11 @@ class Meeshkan < Formula
     sha256 "8984b4b27ddfc4b95b2bcec17ee31f827426cf1d717c2af79eff4b4435e23197"
   end
 
+  resource "daemonocle" do
+    url "https://files.pythonhosted.org/packages/9a/0d/e7b411174ccff6b342a80283b3dc9728807372b6a27febc279dd0f9057f2/daemonocle-1.0.1.tar.gz"
+    sha256 "a8fc48d55f6390302a9a1816ad488cba640e70948f750d4c8fe5a401294dab68"
+  end
+
   resource "dataclasses" do
     url "https://files.pythonhosted.org/packages/59/e4/2f921edfdf1493bdc07b914cbea43bc334996df4841a34523baf73d1fb4f/dataclasses-0.6.tar.gz"
     sha256 "6988bd2b895eef432d562370bb707d540f32f7360ab13da45340101bc2307d84"
@@ -79,8 +84,8 @@ class Meeshkan < Formula
   end
 
   resource "http-types" do
-    url "https://files.pythonhosted.org/packages/9d/5a/021a80a1dfd8943694fa129a98c32f28d4ae9317d6b99c11a0e2f75ac3bf/http-types-0.0.11.tar.gz"
-    sha256 "37320db15487c6d123c629c41ae5b34938b4c5e952de0d22eb05ffc077cf4f77"
+    url "https://files.pythonhosted.org/packages/79/42/6084e8c3105d4ae5eaced3c77f3227c0d896696b7cc01da772e31b8f210c/http-types-0.0.13.tar.gz"
+    sha256 "3fef9834d41207c201e536a01aca29fab1f8b62605123359402cf795b03c3cf5"
   end
 
   resource "idna" do
@@ -126,6 +131,11 @@ class Meeshkan < Formula
   resource "opentracing" do
     url "https://files.pythonhosted.org/packages/06/c2/90b35a1abdc639a5c6000d8202c70217d60e80f5b328870efb73fda71115/opentracing-1.3.0.tar.gz"
     sha256 "9b3f7c7a20c34170b9253c97121256264daf6b5f090035c732c6e2548cc5c0a7"
+  end
+
+  resource "psutil" do
+    url "https://files.pythonhosted.org/packages/c4/b8/3512f0e93e0db23a71d82485ba256071ebef99b227351f0f5540f744af41/psutil-5.7.0.tar.gz"
+    sha256 "685ec16ca14d079455892f25bd124df26ff9137664af445563c1bd36629b5e0e"
   end
 
   resource "pyrsistent" do
