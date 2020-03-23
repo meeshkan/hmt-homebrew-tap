@@ -3,8 +3,8 @@ class Meeshkan < Formula
 
   desc "Mock HTTP APIs"
   homepage "https://github.com/meeshkan/meeshkan"
-  url "https://github.com/meeshkan/meeshkan/archive/v0.2.17.tar.gz"
-  sha256 "7167e0468c421d2e43bb13d02964b7c1d1973492fa3173066651e4e83cf99803"
+  url "https://github.com/meeshkan/meeshkan/archive/v0.2.21.tar.gz"
+  sha256 "5ac3a1a10e98b6c8e95a6310a77a0b8b736d1e55998ab42cf21c068b044141cc"
   head "https://github.com/meeshkan/meeshkan.git"
 
   depends_on "python@3.8"
@@ -69,8 +69,8 @@ class Meeshkan < Formula
   end
 
   resource "Faker" do
-    url "https://files.pythonhosted.org/packages/0e/6a/c9a88aca1baaaf0587bfd7b0779429ddfb4e404d066caf3c7a98631247fd/Faker-4.0.1.tar.gz"
-    sha256 "440d68fe0e46c1658b1975b2497abe0c24a7f772e3892253f31e713ffcc48965"
+    url "https://files.pythonhosted.org/packages/1c/a8/75be8ae84628c8cdaf59f1a60d873de5ecb5b8577889f0c8be38f1a90519/Faker-4.0.2.tar.gz"
+    sha256 "2d3f866ef25e1a5af80e7b0ceeacc3c92dec5d0fdbad3e2cb6adf6e60b22188f"
   end
 
   resource "faust" do
@@ -84,8 +84,8 @@ class Meeshkan < Formula
   end
 
   resource "http-types" do
-    url "https://files.pythonhosted.org/packages/79/42/6084e8c3105d4ae5eaced3c77f3227c0d896696b7cc01da772e31b8f210c/http-types-0.0.13.tar.gz"
-    sha256 "3fef9834d41207c201e536a01aca29fab1f8b62605123359402cf795b03c3cf5"
+    url "https://files.pythonhosted.org/packages/e3/9b/73b3e0d49825130c1977a8863e2416f92db47b00066901700278436441a0/http-types-0.0.14.tar.gz"
+    sha256 "47b185596be888cff95da72f66b0bf30f5d5bfa9f302ba11598d23d8216b6379"
   end
 
   resource "idna" do
@@ -149,8 +149,8 @@ class Meeshkan < Formula
   end
 
   resource "PyYAML" do
-    url "https://files.pythonhosted.org/packages/3d/d9/ea9816aea31beeadccd03f1f8b625ecf8f645bd66744484d162d84803ce5/PyYAML-5.3.tar.gz"
-    sha256 "e9f45bd5b92c7974e59bcd2dcc8631a6b6cc380a904725fce7bc08872e691615"
+    url "https://files.pythonhosted.org/packages/64/c2/b80047c7ac2478f9501676c988a5411ed5572f35d1beff9cae07d321512c/PyYAML-5.3.1.tar.gz"
+    sha256 "b8eac752c5e14d3eca0e6dd9199cd627518cb5ec06add0de9d32baeee6fe645d"
   end
 
   resource "requests" do
