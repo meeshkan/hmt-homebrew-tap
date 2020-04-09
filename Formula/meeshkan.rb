@@ -1,4 +1,4 @@
-class Meeshkan < Formula
+class Mem < Formula
   include Language::Python::Virtualenv
 
   desc "Mock HTTP APIs"

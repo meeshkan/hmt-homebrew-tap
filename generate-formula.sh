@@ -16,7 +16,7 @@ MEESHKAN_CHECKSUM=`sha256sum $MEESHKAN_TARFILE | cut -f 1 -d ' '`
 OUTPUT=Formula/meeshkan.rb
 
 cat > $OUTPUT <<EOF
-class Meeshkan < Formula
+class Mem < Formula
   include Language::Python::Virtualenv
 
   desc "Mock HTTP APIs"
