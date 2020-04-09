@@ -1,13 +1,13 @@
-# Homebrew tap for meeshkan
-A homebrew tap to install the [meeshkan](https://github.com/meeshkan/meeshkan) schema builder and mocking tool using [Homebrew](https://brew.sh/):
+# Homebrew tap for Mem
+A homebrew tap to install the [Mem](https://github.com/mem/mem) schema builder and mocking tool using [Homebrew](https://brew.sh/):
 
 ```sh
-brew tap meeshkan/tap
-brew install meeshkan
+brew tap mem/tap
+brew install mem
 ```
 
 # For developers
 
-Run `./generate-formula.sh` to update [Formula/meeshkan.rb](Formula/meeshkan.rb) with the latest version published to PyPi.
+Run `./generate-formula.sh` to update [Formula/mem.rb](Formula/mem.rb) with the latest version published to PyPi.
 
-Run `brew reinstall --build-from-source Formula/meeshkan.rb` to test installing the package locally before pushing.
+Run `brew reinstall --build-from-source Formula/mem.rb` to test installing the package locally before pushing.

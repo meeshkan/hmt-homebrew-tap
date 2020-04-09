@@ -2,10 +2,10 @@ class Mem < Formula
   include Language::Python::Virtualenv
 
   desc "Mock HTTP APIs"
-  homepage "https://github.com/meeshkan/meeshkan"
-  url "https://github.com/meeshkan/meeshkan/archive/v0.2.21.tar.gz"
+  homepage "https://github.com/meeshkan/mem"
+  url "https://github.com/meeshkan/mem/archive/v0.2.21.tar.gz"
   sha256 "5ac3a1a10e98b6c8e95a6310a77a0b8b736d1e55998ab42cf21c068b044141cc"
-  head "https://github.com/meeshkan/meeshkan.git"
+  head "https://github.com/meeshkan/mem.git"
 
   depends_on "python@3.8"
   resource "aiohttp" do
