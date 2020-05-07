@@ -16,7 +16,7 @@ hmt_CHECKSUM=`sha256sum $hmt_TARFILE | cut -f 1 -d ' '`
 OUTPUT=Formula/hmt.rb
 
 cat > $OUTPUT <<EOF
-class hmt < Formula
+class Hmt < Formula
   include Language::Python::Virtualenv
 
   desc "Mock HTTP APIs"
@@ -28,7 +28,7 @@ class hmt < Formula
   depends_on "python@3.8"
 EOF
 
-poet hmt >> $OUTPUT
+poet hmt | sed '/  resource "hmt" do/,/  end/d' >> $OUTPUT
 
 cat >> $OUTPUT <<EOF
   def install
