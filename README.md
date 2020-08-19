@@ -2,7 +2,7 @@
 A homebrew tap to install the [hmt](https://github.com/meeshkan/hmt) schema builder and mocking tool using [Homebrew](https://brew.sh/):
 
 ```sh
-brew tap hmt/tap
+brew tap meeshkan/tap
 brew install hmt
 ```
 
